@@ -47,7 +47,7 @@ console.log(multipleNumber);
 //NOTE: Result should be something like "Michael is 30"
 
 var mySentence = myName;
-console.log(myName + " is " + myAge + " years.");
+console.log("My name is " + myName + " and my age  is " + myAge + " years.");
  
 //11) Create variable named myUndefined2 and set its value equal to undefined without "undefined" word usage
 
