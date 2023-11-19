@@ -3,13 +3,37 @@
     Створіть функцію, яка буде повертати другий елемент з масиву
 */
 
+let frontend = ['vue', 'js', 'html', 'css', 'react'];
+
+function getSecondElement(arr) {
+  return arr[1];
+}
+
+console.log(getSecondElement(frontend));
+
 /* Task - 2
     Створіть функцію, який додасть 1 елемент до масиву з попередньої задачи (array1) (наприклад, "new item")
 */
 
+
+function addNewElement(frontend, element) {
+    frontend.push(element);
+  }
+  
+  addNewElement(frontend, 'new item');
+  console.log(frontend);
+
+
 /* Task - 3
     Створіть другий масив (array2), потім створить функцію, яка отримує 2 масиви і повертає масив, що містить елементи з масивів array1 та array2
 */
+
+let backend = ['python', 'c++', 'php', 'ruby', 'nodejs']
+function mergeArr(frontend, backend) {
+    return frontend.concat(backend);
+  }
+  const ArraysResult = mergeArr(frontend, backend);
+  console.log(ArraysResult);
 
 /* Task - 4 (Not required)
     Створіть функцію, яка буде повертає новий масив заданої довжини, заповнений заданим значенням
