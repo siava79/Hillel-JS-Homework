@@ -77,3 +77,5 @@ var services = {
 - створити метод minPrice() - який повертає мінімальний price
 - створити метод maxPrice() - який повертає максимальний price
 */
+test2
+test3
